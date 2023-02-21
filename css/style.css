@@ -18,11 +18,10 @@ font-family: 'Open Sans', sans-serif;
 .container {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  width: 80%;
-  margin: 10px 10%;
+  width: 90%;
+  margin: 0px 10%;
 }
 
 .button {
@@ -30,7 +29,9 @@ font-family: 'Open Sans', sans-serif;
   border-radius: 20px;
   color: black;
   background-color: white;
+  margin: 10px;
 }
+
 header .button:hover {
   color: #265DE8 ;
 }
@@ -46,22 +47,37 @@ header .button:hover {
   font-size: 13px;
   
 }
+h1 {
+  font-size: 35px;
+}
+
+.bg-grey{
+  background-color: lightgray;
+}
 
 
 /* Header */
 
 
 header{
+
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-height: 400px;
+height: fit-content;
 background-image: url(../img/jumbo.png);
 background-size: cover;
 background-position: center;
 
+
 }
 
+
+.primo-header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 
 nav ul {
   display: flex;
@@ -98,11 +114,14 @@ header .button.black:hover {
 
 
 .intro {
-
-
   text-align: center;
   color: white;
-  margin: 50px 10%;
+  margin: 50px 20%;
+}
+
+.section-1 .intro h1{
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .button-block {
@@ -110,27 +129,34 @@ header .button.black:hover {
 }
 
 /* Main */
-
+  main .container{
+    display: flex;
+    justify-items: center;
+  }
 
 /* sections 2-3-4 */
 
 .section-2, .section-3, .section-4 {
-
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 500px; 
-  margin: 0 auto;
+  margin: 300px 5%;
+
   
 }
 
-.section-3{
-  background-color: blueviolet;
 
+.immagine img{
+min-height: 350px;
+width: 100%;
 }
 
-.section-4{
-  background-color:deepskyblue;
+.section-2 {
+  margin-top: 50px;
+}
+
+.section-3 {
+  display: flex;
+  width: 100%;
+  margin: 300px 0;
 }
 
 
@@ -138,25 +164,19 @@ header .button.black:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   margin-bottom: 15px;
-  margin: 0 15%;
 }
 
 .immagine {
-    
-    width: 55%;
-    height: 300px;
-    background-color:darkgreen;
+  width: 50%;
 }
 
  .testo {
-  display: flex;
-  flex-wrap: wrap;
-  width: 45% ;
-  height: 300px;
-  background-color: coral;
+  margin: 20px;
+  width: 40% ;
   padding:  5%;
+  
 }
   
 
@@ -166,8 +186,6 @@ header .button.black:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: darkmagenta;
-  padding: 20px;
   text-align: center;
   vertical-align: middle;
   
@@ -178,26 +196,36 @@ header .button.black:hover {
   width: 70%;
 
   margin-bottom: 10px;
-  background-color: brown;
 }
-.immagine-2 {
+.immagine-ultima img{
   align-items: center ;
-  height: 300px;
-  width: 70%;
-
-  margin-bottom: 10px;
-  background-color: brown;
+  height: 700px;
+  width: 90%;
+  
+ 
 }
+
+.testo-button {
+  padding: 20px;
+  background-image: url(../img/stars.svg);
+  background-size: 500px;
+  background-position: top center;
+}
+
+
 .scarica{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100px;
   width: 70%;
-  
-  
-  background-color: brown;
 
+
+}
+
+.scarica .azzurro{
+  background-color: #8FA1E1;
+  color: white;
 }
 
 
@@ -205,8 +233,7 @@ header .button.black:hover {
 
 /* Footer */
 footer {
-  height: 400px;
-  background-color: forestgreen;
+  background-color: #23272A ;
   padding: 15px;
 }
 
@@ -215,8 +242,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 15%;
-  border: 2px dotted black ;
+  margin: 30px 15%;
+  color: white;
 }
 
 
@@ -227,20 +254,37 @@ footer {
 
   height: 300px;
   width: 30%;
-  background-color: crimson;
   
-  border: 2px dotted black ;
 }
+
+select {
+  background-color: #23272A;
+  border: #23272A;
+  color: white;
+  font-size: ;
+}
+
+
+#language {
+  
+} 
+
+
 
 .link-aside-footer {
   height: 300px;
   width: 17.5%;
-  background-color: crimson;
 
-  border: 2px dotted white ;
-  
 }
 
+footer h2, h4 {
+  color: #728ADB;
+}
+
+
+.fa-brands{
+  margin: 0 5px;
+}
 
 .second-footer {
   display: flex;
@@ -250,19 +294,15 @@ footer {
   width: 70%;
   height: 50px;
   margin: 0px 15%;
-  background-color: aquamarine;
 }
 
-.logo-footer {
-  background-color: beige;
-  border: 2px dotted black;
+.logo-footer  {
 }
 
 
 .bottone-footer {
-  background-color: beige;
-  border: 2px dotted black;
-
+  background-color: #728ADB;
+  color: white;
 }
 
 #language {
