@@ -55,11 +55,23 @@ h1 {
 }
 
 
-object img {
-  color: aquamarine;
+.wave-container {
+  background: url(../img/wave-5.svg);
+  margin-top: -60px;
+  height: 100px;
+  
+  
 }
 
+ .top{
 
+  background: url(../img/wave-5-flipped.svg);
+  height: 100px;
+  width: 100%;
+  margin-bottom: -10px;
+  background-color: lightgray;
+  
+}
 
 
   
@@ -177,7 +189,7 @@ width: 100%;
 .section-3 {
   display: flex;
   width: 100%;
-  padding: 100px 0
+  padding: 100px 0;
 }
 
 
