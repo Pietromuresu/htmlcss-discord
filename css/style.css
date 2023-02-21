@@ -20,7 +20,6 @@ font-family: 'Open Sans', sans-serif;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 90%;
   margin: 0px 10%;
 }
 
@@ -29,7 +28,7 @@ font-family: 'Open Sans', sans-serif;
   border-radius: 20px;
   color: black;
   background-color: white;
-  margin: 10px;
+  margin: 10px ;
 }
 
 header .button:hover {
@@ -74,16 +73,25 @@ background-position: center;
 
 }
 
+header .container {
+  display:flex ;
+  width: 100%;
+}
+
 
 .primo-header{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 20px;
+  margin: 20px auto;
+  min-width: 90%;
+  
 }
 
 nav ul {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 20px;
 }
 
 nav ul li {
@@ -140,7 +148,9 @@ header .button.black:hover {
 
 .section-2, .section-3, .section-4 {
   display: flex;
-  margin: 5% 0;
+  justify-items: center;
+  width: 90%;
+  margin: auto;
 
   
 }
