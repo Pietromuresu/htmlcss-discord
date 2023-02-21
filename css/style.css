@@ -54,6 +54,14 @@ h1 {
   background-color: lightgray;
 }
 
+
+object img {
+  color: aquamarine;
+}
+
+
+
+
   
 
 
@@ -297,7 +305,7 @@ select {
   min-height: 300px;
   width: 17.5%;
   margin-left: 5px;
-  
+  font-size: 13px;
 }
 
 footer h2, h4 {
