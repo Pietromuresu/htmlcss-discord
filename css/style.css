@@ -55,6 +55,8 @@ h1 {
   background-color: lightgray;
 }
 
+  
+
 
 /* Header */
 
@@ -138,7 +140,7 @@ header .button.black:hover {
 
 .section-2, .section-3, .section-4 {
   display: flex;
-  margin: 300px 5%;
+  margin: 5% 0;
 
   
 }
@@ -151,12 +153,13 @@ width: 100%;
 
 .section-2 {
   margin-top: 50px;
+  
 }
 
 .section-3 {
   display: flex;
   width: 100%;
-  margin: 300px 0;
+  padding: 100px 0
 }
 
 
@@ -188,7 +191,7 @@ width: 100%;
   align-items: center;
   text-align: center;
   vertical-align: middle;
-  
+  padding-top: 100px;
 }
 
 .intestazione {
@@ -229,6 +232,10 @@ width: 100%;
 }
 
 
+.scarica div:hover {
+  background-color: #4160c7;
+}
+
 
 
 /* Footer */
@@ -252,7 +259,7 @@ footer {
 
 .grande-footer {
 
-  height: 300px;
+  min-height: 300px;
   width: 30%;
   
 }
@@ -269,12 +276,18 @@ select {
   
 } 
 
-
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  
+}
 
 .link-aside-footer {
-  height: 300px;
+  min-height: 300px;
   width: 17.5%;
-
+  margin-left: 5px;
+  
 }
 
 footer h2, h4 {
@@ -286,13 +299,16 @@ footer h2, h4 {
   margin: 0 5px;
 }
 
+aside ul li a:hover {
+  text-decoration: underline;
+}
 .second-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 70%;
-  height: 50px;
+  
   margin: 0px 15%;
 }
 
@@ -305,6 +321,10 @@ footer h2, h4 {
   color: white;
 }
 
+
+.bottone-footer:hover {
+  background-color: #4160c7;
+}
 #language {
   margin-top: 20px;
 }
