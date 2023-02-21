@@ -9,27 +9,60 @@ hr{
 
 }
 
+body{
+  font-family: 'Fredoka', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  margin: 10px 10%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+}
+header .button:hover {
+  color: #265DE8 ;
+}
+
+
+.button.grande{
+
+  padding: 10px 15px;
+}
+
+.button.piccolo {
+  padding: 5px 10px;
+  font-size: 13px;
+  
+}
+
+
 /* Header */
 
-body {
-  background-color: aqua;
-}
 
 header{
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-align-items: center;
+height: 400px;
+background-image: url(../img/jumbo.png);
+background-size: cover;
+background-position: center;
 
-margin: 15px 15%;
-background-color: yellow;
-
-border: 2px dotted black;
 }
 
-.logo, .menu-header, .button{
-  border: 2px dotted black;
-}
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -40,33 +73,43 @@ nav ul li {
   list-style: none;
   margin: 12px;
 }
+
 nav ul li a{
   text-decoration: none;
-  color: black;
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
-/* Main */
+
+header .button.black{
+  
+  background-color: #23272A;
+  color: white;
+}
+
+header .button.black:hover {
+  background-color: #36393f ;
+}
   
 /* Section 1 */
-.section-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-  background-color: red;
-  text-align: center;
-  
-}
+
 
 
 .intro {
-  border: 2px dotted black;
-  height: 300px;
-  width: 600px;
-  background-color: beige;
-  padding: 5%;
+
+
+  text-align: center;
+  color: white;
+  margin: 50px 10%;
 }
 
+.button-block {
+  margin-top: 20px;
+}
+
+/* Main */
 
 
 /* sections 2-3-4 */
