@@ -57,7 +57,8 @@ h1 {
 
 .wave-container {
   background: url(../img/wave-5.svg);
-  margin-top: -60px;
+  background-size: cover;
+  background-color: lightgray;
   height: 100px;
   
   
@@ -67,10 +68,8 @@ h1 {
 
   background: url(../img/wave-5-flipped.svg);
   height: 100px;
-  width: 100%;
-  margin-bottom: -10px;
   background-color: lightgray;
-  
+  background-size: cover;
 }
 
 
@@ -327,6 +326,10 @@ footer h2, h4 {
 
 .fa-brands{
   margin: 0 5px;
+}
+
+aside ul li a{
+
 }
 
 aside ul li a:hover {
